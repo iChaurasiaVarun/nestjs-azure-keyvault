@@ -43,7 +43,6 @@ export class AppModule {}
 
 ```typescript
 constructor(
-    private readonly appService: AppService,
     private readonly keyvaultService: KeyVaultService,
   ) {}
 ```
